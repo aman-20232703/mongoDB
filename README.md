@@ -1,5 +1,6 @@
-🔹 Introduction
-📘 What is MongoDB?
+# 🔹 Introduction
+
+## What is MongoDB?
 MongoDB is a NoSQL database that stores data in JSON-like documents called BSON (Binary JSON). It's schema-less, meaning each document can have different fields.
 
 🔄 SQL vs NoSQL
