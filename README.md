@@ -6,13 +6,13 @@ MongoDB is a NoSQL database that stores data in JSON-like documents called BSON 
 ## SQL vs NoSQL
 <b>Feature</b>	 &nbsp;&nbsp;&nbsp;&nbsp;     <b>SQL (Relational DB)</b>	        &nbsp;&nbsp;&nbsp;&nbsp;        <b>NoSQL (MongoDB)</b>
 
-Structure	                            Tables, Rows	Collections,                                  Documents
+Structure	        &nbsp;&nbsp;&nbsp;&nbsp;     Tables, Rows	Collections,           &nbsp;&nbsp;&nbsp;&nbsp;        Documents
 
-Schema	                              Fixed	                                                      Dynamic
+Schema	          &nbsp;&nbsp;&nbsp;&nbsp;      Fixed	                             &nbsp;&nbsp;&nbsp;&nbsp;         Dynamic
 
-Joins                	                Supports complex joins	                                    Limited joins
+Joins             &nbsp;&nbsp;&nbsp;&nbsp;      Supports complex joins	          &nbsp;&nbsp;&nbsp;&nbsp;          Limited joins
 
-                                      Scalability	Vertical	                                      Horizontal (easier to scale)
+Scalability       &nbsp;&nbsp;&nbsp;&nbsp;      Scalability	Vertical	              &nbsp;&nbsp;&nbsp;&nbsp;         Horizontal (easier to scale)
 
 ## JSON vs BSON
 JSON: Human-readable text format.
