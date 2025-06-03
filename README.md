@@ -4,7 +4,7 @@
 MongoDB is a NoSQL database that stores data in JSON-like documents called BSON (Binary JSON). It's schema-less, meaning each document can have different fields.
 
 ## SQL vs NoSQL
-Feature	             SQL (Relational DB)	              NoSQL (MongoDB)
+Feature	       This&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;spaced&nbsp;&nbsp;&nbsp;text.      SQL (Relational DB)	              NoSQL (MongoDB)
 Structure	            Tables, Rows	Collections,              Documents
 Schema	              Fixed	                                  Dynamic
 Joins                	Supports complex joins	                Limited joins
