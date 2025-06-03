@@ -65,13 +65,13 @@ MongoDB uses double quotes for field names in queries.
 
 ## Querying MongoDB
 ### omparison Operators
-$eq: Equal to
+<b>$eq:</b> Equal to
 
-$gt: Greater than
+<b>$gt:</b> Greater than
 
-$lte: Less than or equal to
+<b>$lte:</b> Less than or equal to
 
-db.users.find({ age: { $gt: 18 } })
+e.g- db.users.find({ age: { $gt: 18 } })
 
 ### Logical Operators
 $and, $or, $not, $nor for complex filtering.
@@ -92,9 +92,9 @@ Specifies which fields to return:
 db.users.find({}, { name: 1, _id: 0 })
 
 ### Element Operators
-$exists: Checks if a field exists
+<b>$exists:</b> Checks if a field exists
 
-$type: Checks data type
+<b>$type:</b> Checks data type
 
 ### Expressions ($expr)
 Allows comparison between fields inside the same document.
@@ -114,11 +114,11 @@ Unique	Prevent duplicate values
 Text	Search text in strings
 
 ### Commands
-createIndex({ name: 1 }): Ascending index
+<b>createIndex({ name: 1 }):</b> Ascending index
 
-dropIndex(): Removes index
+<b>dropIndex():</b> Removes index
 
-explain(): Shows query performance
+<b>explain():</b> Shows query performance
 
 ## Aggregation Framework
 Used for advanced data processing like grouping, sorting, filtering.
