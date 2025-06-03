@@ -26,21 +26,26 @@ Compass: GUI tool to visualize, query, and manage MongoDB data.
 
  ## MongoDB Basics
 ### Clusters, Databases, Collections, Documents
-Cluster: A group of servers hosting MongoDB databases.
+<b>Cluster:</b> A group of servers hosting MongoDB databases.
 
-Database: Holds collections.
+<b>Database:</b> Holds collections.
 
-Collection: Like a table in SQL, holds documents.
+<b>Collection:</b> Like a table in SQL, holds documents.
 
-Document: A JSON/BSON object that stores data (like a row).
+<b>Document:</b> A JSON/BSON object that stores data (like a row).
 
 ## CRUD Operations
-Operation              	Function
-insertOne()        	Add a single document
-insertMany()      	Add multiple documents
-find(),             findOne()	Retrieve documents
-updateOne(),        updateMany()	Modify documents
-deleteOne(),        eleteMany()	Remove documents
+<b>Operation </b>             <b>	Function</b>
+
+<b>insertOne() </b>       	Add a single document
+
+<b>insertMany() </b>     	Add multiple documents
+
+<b>find(),</b>           findOne()	Retrieve documents
+
+<b>updateOne(),</b>        updateMany()	Modify documents
+
+<b>deleteOne(),</b>        eleteMany()	Remove documents
 
 ## Data Types and Schema
 Flexible Schema
@@ -72,13 +77,13 @@ db.users.find({ age: { $gt: 18 } })
 $and, $or, $not, $nor for complex filtering.
 
 ###  Cursor Methods
-.limit(n): Limit results
+<b>.limit(n): </b> Limit results
 
-.skip(n): Skip first n results
+<b>.skip(n):</b> Skip first n results
 
-.sort(): Sort by field
+<b>.sort():</b> Sort by field
 
-.count(): Count documents
+<b>.count():</b> Count documents
 
 ### Advanced MongoDB
 #### Projection
@@ -95,9 +100,9 @@ $type: Checks data type
 Allows comparison between fields inside the same document.
 
 ### Array Operators
-$all: Match all values in array
+<b>$all:</b> Match all values in array
 
-$elemMatch: Match at least one embedded document in an array
+<b>$elemMatch:</b> Match at least one embedded document in an array
 
 ## Indexing
 ### Indexes
